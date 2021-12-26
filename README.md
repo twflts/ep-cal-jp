@@ -7,14 +7,14 @@ Beautiful, simple, electric, ePaper, Japanese calendar without glare.
 
 ## Sample image
 
-ePaper draw like this.
+ePaper draws like this.
 
 ![sample.png](img/sample.png?raw=true)
 
 
 ## Information
 
-The calendar will show Japanese holidays. https://en.wikipedia.org/wiki/Public_holidays_in_Japan
+The calendar shows Japanese holidays. https://en.wikipedia.org/wiki/Public_holidays_in_Japan
 Holidays data will get from https://holidays-jp.github.io .
 
 If you want to show another country holiday data, rewrite source code.
@@ -23,7 +23,7 @@ If you want to show another country holiday data, rewrite source code.
 ## Required hardware
 
 - Raspberry Pi Series
-    - Zero is good.
+    - Zero is good. Pico is __NOT__ supported.
 - Waveshare 7.5inch E-Paper E-Ink Display (Red / Black / White): https://www.waveshare.com/product/displays/e-paper/epaper-1/7.5inch-e-paper-hat-b.htm
     - If you buy another models, change import library (ex. `epd7in5b_V2` ), some parameters in `ep-cal.py`.
 - Photo frame
@@ -59,7 +59,9 @@ $ ln -s /path/to/e-Paper/RaspberryPi_JetsonNano/python/lib/ /path/to/ep-cal-jp/l
 
 ## Lovely, respectful
 
--  speedyg0nz / MagInkCal: https://github.com/speedyg0nz/MagInkCal/tree/main/render
+- speedyg0nz / MagInkCal: https://github.com/speedyg0nz/MagInkCal/tree/main/render
     - Everyone enchanted, greatly product.
 - Android Experiments OBJECT グランプリ : Magic Calendar: https://www.youtube.com/watch?v=2KDkFgOHZ5I
     - And, everyone enchanted so.
+- Tenor Sans (by Designed by Denis Masharov): https://fonts.google.com/specimen/Tenor+Sans
+    - Beautiful font.
