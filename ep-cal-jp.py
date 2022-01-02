@@ -123,7 +123,7 @@ def draw_day(draw, day, day_x, day_y, col_width, days_col_height, font, today=No
                        (day_y + (days_col_height / 4)),
                        (days_col_height / 2),
                        margin=2,
-                       margin_top=-5)
+                       margin_top=-8)
         draw.ellipse(c, fill=COLORED)
         draw.text((day_x, day_y), str(day), NON_COLORED, font=font)
     else:
